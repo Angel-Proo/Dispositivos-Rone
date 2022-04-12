@@ -75,6 +75,8 @@
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.panel2.Controls.Add(this.textBoxID);
             this.panel2.Controls.Add(this.labelID);
             this.panel2.Controls.Add(this.textBoxNombre);
@@ -82,7 +84,6 @@
             this.panel2.Controls.Add(this.buttonActualizar);
             this.panel2.Controls.Add(this.btnIngresar);
             this.panel2.Controls.Add(this.buttonEliminar);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 90);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(563, 454);
@@ -90,6 +91,7 @@
             // 
             // textBoxID
             // 
+            this.textBoxID.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxID.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxID.Location = new System.Drawing.Point(146, 74);
             this.textBoxID.Name = "textBoxID";
@@ -99,6 +101,7 @@
             // 
             // labelID
             // 
+            this.labelID.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelID.Font = new System.Drawing.Font("Helvetica Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelID.Location = new System.Drawing.Point(12, 66);
             this.labelID.Name = "labelID";
@@ -110,6 +113,7 @@
             // 
             // textBoxNombre
             // 
+            this.textBoxNombre.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxNombre.Location = new System.Drawing.Point(146, 190);
             this.textBoxNombre.Name = "textBoxNombre";
@@ -118,6 +122,7 @@
             // 
             // labelNombre
             // 
+            this.labelNombre.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelNombre.Font = new System.Drawing.Font("Helvetica Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNombre.Location = new System.Drawing.Point(12, 182);
             this.labelNombre.Name = "labelNombre";
@@ -129,6 +134,7 @@
             // 
             // buttonActualizar
             // 
+            this.buttonActualizar.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.buttonActualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.buttonActualizar.FlatAppearance.BorderSize = 0;
             this.buttonActualizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -146,6 +152,7 @@
             // 
             // btnIngresar
             // 
+            this.btnIngresar.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.btnIngresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnIngresar.FlatAppearance.BorderSize = 0;
             this.btnIngresar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -163,6 +170,7 @@
             // 
             // buttonEliminar
             // 
+            this.buttonEliminar.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.buttonEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.buttonEliminar.FlatAppearance.BorderSize = 0;
             this.buttonEliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -180,6 +188,7 @@
             // 
             // dgvPersonal
             // 
+            this.dgvPersonal.AllowDrop = true;
             this.dgvPersonal.AllowUserToAddRows = false;
             this.dgvPersonal.AllowUserToDeleteRows = false;
             this.dgvPersonal.AllowUserToResizeRows = false;
@@ -189,6 +198,9 @@
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.WhiteSmoke;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.dgvPersonal.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvPersonal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvPersonal.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvPersonal.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvPersonal.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
@@ -236,6 +248,8 @@
             this.Controls.Add(this.dgvPersonal);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MinimizeBox = false;
             this.Name = "Personal";
             this.Text = "Personal";
             this.Load += new System.EventHandler(this.Personal_Load);

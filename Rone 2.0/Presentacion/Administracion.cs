@@ -16,5 +16,10 @@ namespace Rone_2._0.Presentacion
         {
             InitializeComponent();
         }
+
+        private void Administracion_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

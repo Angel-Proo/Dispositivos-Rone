@@ -123,9 +123,39 @@ namespace Rone_2._0.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mesero {
+            get {
+                object obj = ResourceManager.GetObject("mesero", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap question {
             get {
                 object obj = ResourceManager.GetObject("question", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap waiter_serving_a_drink_on_a_tray {
+            get {
+                object obj = ResourceManager.GetObject("waiter_serving_a_drink_on_a_tray", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap waiter_serving_a_drink_on_a_tray__1_ {
+            get {
+                object obj = ResourceManager.GetObject("waiter-serving-a-drink-on-a-tray (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

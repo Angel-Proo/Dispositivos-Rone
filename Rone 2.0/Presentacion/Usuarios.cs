@@ -60,10 +60,10 @@ namespace Rone_2._0.Presentacion
                 {
                     FbCommand cmd = new FbCommand("ALTA_USUARIOS");
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.Add("@COL1", FbDbType.Char).Value = textBoxNombre.Text.Trim();
-                    cmd.Parameters.Add("@COL2", FbDbType.Char).Value = textBoxUsuario.Text.Trim();
+                    cmd.Parameters.Add("@COL1", FbDbType.VarChar).Value = textBoxNombre.Text.Trim();
+                    cmd.Parameters.Add("@COL2", FbDbType.VarChar).Value = textBoxUsuario.Text.Trim();
                     cmd.Parameters.Add("@COL3", FbDbType.Integer).Value = pr;
-                    cmd.Parameters.Add("@COL4", FbDbType.Char).Value = textBoxPassword.Text;
+                    cmd.Parameters.Add("@COL4", FbDbType.VarChar).Value = textBoxPassword.Text;
                     using (cmd.Connection = new FbConnection(Conexion.conn()))
                     {
                         cmd.Connection.Open();
@@ -99,10 +99,10 @@ namespace Rone_2._0.Presentacion
                     FbCommand cmd = new FbCommand("CAMBIA_USUARIOS");
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.Add("@COL1", FbDbType.Integer).Value = Convert.ToInt32(textBoxID.Text);
-                    cmd.Parameters.Add("@COL2", FbDbType.Char).Value = textBoxNombre.Text.Trim();
-                    cmd.Parameters.Add("@COL3", FbDbType.Char).Value = textBoxUsuario.Text.Trim();
+                    cmd.Parameters.Add("@COL2", FbDbType.VarChar).Value = textBoxNombre.Text.Trim();
+                    cmd.Parameters.Add("@COL3", FbDbType.VarChar).Value = textBoxUsuario.Text.Trim();
                     cmd.Parameters.Add("@COL4", FbDbType.Integer).Value = pr;
-                    cmd.Parameters.Add("@COL5", FbDbType.Char).Value = textBoxPassword.Text;
+                    cmd.Parameters.Add("@COL5", FbDbType.VarChar).Value = textBoxPassword.Text;
                     using (cmd.Connection = new FbConnection(Conexion.conn()))
                     {
                         cmd.Connection.Open();

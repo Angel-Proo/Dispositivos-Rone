@@ -35,7 +35,7 @@ namespace Rone_2._0.Presentacion
                 }
             }
         // Lee los Nombres de Personal    
-            FbCommand cmds = new FbCommand("Select ID from PERSONAL")
+            FbCommand cmds = new FbCommand("Select NOMBRE from PERSONAL")
             {
                 CommandType = CommandType.Text
             };
@@ -45,7 +45,7 @@ namespace Rone_2._0.Presentacion
                 FbDataReader registro = cmds.ExecuteReader();
                 while (registro.Read())
                 {
-                    comboBoxPersonal.Items.Add(registro["ID"].ToString());
+                    comboBoxPersonal.Items.Add(registro["NOMBRE"].ToString());
                 }
             }
          // carga la tabla en dgvUsuarios
@@ -54,8 +54,8 @@ namespace Rone_2._0.Presentacion
                 //Clase que actualiza la tabla
                 dgvAsignacion.DataSource = new Actualizar_Usuarios("BUSCA_ASIGNACION").Buscar();
                 dgvAsignacion.Columns[0].HeaderText = "ID Dispositivo";
-                dgvAsignacion.Columns[1].HeaderText = "ID Colaborador";
-                dgvAsignacion.Columns[2].HeaderText = "Nombre del Colaborador";
+                dgvAsignacion.Columns[2].HeaderText = "ID Colaborador";
+                dgvAsignacion.Columns[1].HeaderText = "Nombre del Colaborador";
             }
             catch (Exception ex)
             {
@@ -73,39 +73,46 @@ namespace Rone_2._0.Presentacion
         }
         private void btnIngresar_Click(object sender, EventArgs e)
         {//accion del boton ingresar usuario
-            if (!String.IsNullOrEmpty(comboBoxIDDispositivos.Text) && !String.IsNullOrEmpty(comboBoxPersonal.Text))
-            {
-                try
+            FbCommand cmds = new FbCommand("NOMBRE");
+            cmds.CommandType = CommandType.StoredProcedure;
+            cmds.Parameters.Add("NAME", FbDbType.VarChar).Value = comboBoxPersonal.Text.Trim();
+            cmds.Connection = new FbConnection(Conexion.conn());
+            cmds.Connection.Open();
+            int ID = (int)cmds.ExecuteScalar();
+            cmds.Connection.Close();
+                if (!String.IsNullOrEmpty(comboBoxIDDispositivos.Text) && !String.IsNullOrEmpty(comboBoxPersonal.Text))
                 {
-                    FbCommand cmd = new FbCommand("ALTA_ASIGNACION");
-                    cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.Add("@COL1", FbDbType.Integer).Value = comboBoxIDDispositivos.Text.Trim();
-                    cmd.Parameters.Add("@COL2", FbDbType.Integer).Value = comboBoxPersonal.Text.Trim();
-                    using (cmd.Connection = new FbConnection(Conexion.conn()))
+                    try
                     {
-                        cmd.Connection.Open();
-                        string mensaje = (string)cmd.ExecuteScalar();
-                        if (mensaje.Contains("Registrado"))
+                        FbCommand cmd = new FbCommand("ALTA_ASIGNACION");
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Add("@COL1", FbDbType.Integer).Value = comboBoxIDDispositivos.Text.Trim();
+                        cmd.Parameters.Add("@COL2", FbDbType.Integer).Value = ID;
+                        using (cmd.Connection = new FbConnection(Conexion.conn()))
                         {
-                            MB.Show(mensaje, "Exito", MessageBoxButtons.OK, MessageBoxIcon.None);
+                            cmd.Connection.Open();
+                            string mensaje = (string)cmd.ExecuteScalar();
+                            if (mensaje.Contains("Registrado"))
+                            {
+                                MB.Show(mensaje, "Exito", MessageBoxButtons.OK, MessageBoxIcon.None);
+                            }
+                            else
+                            {
+                                MB.Show(mensaje, "Precaucion", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            }
                         }
-                        else
-                        {
-                            MB.Show(mensaje, "Precaucion", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        }
+                        //Clase que actualiza la tabla
+                        dgvAsignacion.DataSource = new Actualizar_Usuarios("BUSCA_ASIGNACION").Buscar();
                     }
-                    //Clase que actualiza la tabla
-                    dgvAsignacion.DataSource = new Actualizar_Usuarios("BUSCA_ASIGNACION").Buscar();
+                    catch (Exception ex)
+                    {
+                        MB.Show(ex.Message, "¡Atencion!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
                 }
-                catch (Exception ex)
+                else
                 {
-                    MB.Show(ex.Message, "¡Atencion!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MB.Show("Uno o mas campos se encuentran vacios, \npor favor ingresar la informacion faltante", "¡Advertencia!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            }
-            else
-            {
-                MB.Show("Uno o mas campos se encuentran vacios, \npor favor ingresar la informacion faltante", "¡Advertencia!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
         }
         private void buttonActualizar_Click(object sender, EventArgs e)
         {//accion del boton actualizar usuario

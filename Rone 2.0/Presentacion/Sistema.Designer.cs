@@ -145,6 +145,7 @@
             this.Controls.Add(this.panelInfo);
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.panel6);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Sistema";
             this.Opacity = 0.95D;
             this.Text = "Sistema";

@@ -28,3 +28,34 @@ C:\Users\RONE\source\repos\Rone 2.0\Rone 2.0\obj\Debug\Rone_2._0.Presentacion.Di
 C:\Users\RONE\source\repos\Rone 2.0\Rone 2.0\obj\Debug\Rone_2._0.Messages.resources
 C:\Users\RONE\source\repos\Rone 2.0\Rone 2.0\obj\Debug\Rone_2._0.Presentacion.Personal.resources
 C:\Users\RONE\source\repos\Rone 2.0\Rone 2.0\obj\Debug\Rone_2._0.Presentacion.Asignar_Dispositivos.resources
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\bin\Debug\Rone 2.0.exe.config
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\bin\Debug\Rone 2.0.exe
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\bin\Debug\Rone 2.0.pdb
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone 2.0.csproj.AssemblyReference.cache
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone 2.0.csproj.SuggestedBindingRedirects.cache
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone_2._0.FormMainMenu.resources
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone_2._0.Login.resources
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone_2._0.Messages.resources
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone_2._0.Presentacion.Administracion.resources
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone_2._0.Presentacion.Asignar_Dispositivos.resources
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone_2._0.Presentacion.Dispositivos.resources
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone_2._0.Presentacion.Horarios.resources
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone_2._0.Presentacion.Monitoreo.resources
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone_2._0.Presentacion.Personal.resources
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone_2._0.Presentacion.Registro.resources
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone_2._0.Presentacion.Sistema.resources
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone_2._0.Presentacion.Usuarios.resources
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone_2._0.Properties.Resources.resources
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone 2.0.csproj.GenerateResource.cache
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone 2.0.csproj.CoreCompileInputs.cache
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone 2.0.csproj.CopyComplete
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone 2.0.exe
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone 2.0.pdb
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone_2._0.Presentacion.Reporte.resources
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone_2._0.Presentacion.Event_Log.resources

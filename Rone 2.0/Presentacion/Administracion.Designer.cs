@@ -38,6 +38,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "Administracion";
             this.Text = "Administracion";
+            this.Load += new System.EventHandler(this.Administracion_Load);
             this.ResumeLayout(false);
 
         }

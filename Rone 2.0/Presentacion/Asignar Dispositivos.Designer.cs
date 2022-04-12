@@ -42,11 +42,9 @@
             this.labelID = new System.Windows.Forms.Label();
             this.comboBoxPersonal = new System.Windows.Forms.ComboBox();
             this.comboBoxIDDispositivos = new System.Windows.Forms.ComboBox();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.dgvAsignacion = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAsignacion)).BeginInit();
             this.SuspendLayout();
             // 
@@ -188,17 +186,9 @@
             this.comboBoxIDDispositivos.Size = new System.Drawing.Size(236, 32);
             this.comboBoxIDDispositivos.TabIndex = 0;
             // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.dgvAsignacion);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(564, 90);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(415, 454);
-            this.panel3.TabIndex = 4;
-            // 
             // dgvAsignacion
             // 
+            this.dgvAsignacion.AllowDrop = true;
             this.dgvAsignacion.AllowUserToAddRows = false;
             this.dgvAsignacion.AllowUserToDeleteRows = false;
             this.dgvAsignacion.AllowUserToResizeRows = false;
@@ -224,7 +214,7 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvAsignacion.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvAsignacion.Location = new System.Drawing.Point(15, 17);
+            this.dgvAsignacion.Location = new System.Drawing.Point(580, 105);
             this.dgvAsignacion.Name = "dgvAsignacion";
             this.dgvAsignacion.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
@@ -255,16 +245,16 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(115)))), ((int)(((byte)(205)))));
             this.ClientSize = new System.Drawing.Size(979, 544);
-            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.dgvAsignacion);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.Coral;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Asignar_Dispositivos";
             this.Text = "Asignar_Dispositivos";
             this.Load += new System.EventHandler(this.Asignar_Dispositivos_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAsignacion)).EndInit();
             this.ResumeLayout(false);
 
@@ -276,7 +266,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ComboBox comboBoxIDDispositivos;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.ComboBox comboBoxPersonal;
         private System.Windows.Forms.Label labelUsuario;
         private System.Windows.Forms.Label labelID;

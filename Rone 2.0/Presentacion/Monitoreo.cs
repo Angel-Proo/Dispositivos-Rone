@@ -35,7 +35,7 @@ namespace Rone_2._0.Presentacion
         //Estructuras
         private struct RGBColors
         {
-            public static Color color1 = Color.FromArgb(255, 153, 51);
+            public static Color color1 = Color.FromArgb(241, 196, 15);
         }
         //Metodos
         private void ActivateButton(object senderBtn, Color color)
@@ -66,7 +66,7 @@ namespace Rone_2._0.Presentacion
         {
             if (currentBtn != null)
             {
-                currentBtn.BackColor = Color.FromArgb(255, 153, 51);
+                currentBtn.BackColor = Color.FromArgb(241, 196, 15);
                 currentBtn.ForeColor = Color.WhiteSmoke;
                 currentBtn.TextAlign = ContentAlignment.MiddleLeft;
                 currentBtn.IconColor = Color.WhiteSmoke;

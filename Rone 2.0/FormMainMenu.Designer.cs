@@ -37,6 +37,7 @@
             this.panelLogo = new System.Windows.Forms.Panel();
             this.btnInicio = new System.Windows.Forms.PictureBox();
             this.panelTitleBar = new System.Windows.Forms.Panel();
+            this.iconNormal = new FontAwesome.Sharp.IconPictureBox();
             this.btnExit = new FontAwesome.Sharp.IconPictureBox();
             this.btnExpand = new FontAwesome.Sharp.IconPictureBox();
             this.btnMinimize = new FontAwesome.Sharp.IconPictureBox();
@@ -45,17 +46,16 @@
             this.iconCurrentChildForm = new FontAwesome.Sharp.IconPictureBox();
             this.panelShadow = new System.Windows.Forms.Panel();
             this.panelDesktop = new System.Windows.Forms.Panel();
-            this.iconNormal = new FontAwesome.Sharp.IconPictureBox();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnInicio)).BeginInit();
             this.panelTitleBar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconNormal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExpand)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SubLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconCurrentChildForm)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconNormal)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -202,6 +202,24 @@
             this.panelTitleBar.TabIndex = 1;
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
             // 
+            // iconNormal
+            // 
+            this.iconNormal.AccessibleDescription = "Regresa la ventana al tamaño normal";
+            this.iconNormal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconNormal.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.iconNormal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.iconNormal.IconChar = FontAwesome.Sharp.IconChar.WindowRestore;
+            this.iconNormal.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.iconNormal.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconNormal.IconSize = 24;
+            this.iconNormal.Location = new System.Drawing.Point(1062, 3);
+            this.iconNormal.Margin = new System.Windows.Forms.Padding(2);
+            this.iconNormal.Name = "iconNormal";
+            this.iconNormal.Size = new System.Drawing.Size(28, 24);
+            this.iconNormal.TabIndex = 6;
+            this.iconNormal.TabStop = false;
+            this.iconNormal.Click += new System.EventHandler(this.iconNormal_Click);
+            // 
             // btnExit
             // 
             this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -306,24 +324,6 @@
             this.panelDesktop.Size = new System.Drawing.Size(1173, 622);
             this.panelDesktop.TabIndex = 3;
             // 
-            // iconNormal
-            // 
-            this.iconNormal.AccessibleDescription = "Regresa la ventana al tamaño normal";
-            this.iconNormal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconNormal.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.iconNormal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.iconNormal.IconChar = FontAwesome.Sharp.IconChar.WindowRestore;
-            this.iconNormal.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.iconNormal.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconNormal.IconSize = 24;
-            this.iconNormal.Location = new System.Drawing.Point(1062, 3);
-            this.iconNormal.Margin = new System.Windows.Forms.Padding(2);
-            this.iconNormal.Name = "iconNormal";
-            this.iconNormal.Size = new System.Drawing.Size(28, 24);
-            this.iconNormal.TabIndex = 6;
-            this.iconNormal.TabStop = false;
-            this.iconNormal.Click += new System.EventHandler(this.iconNormal_Click);
-            // 
             // FormMainMenu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -333,6 +333,7 @@
             this.Controls.Add(this.panelShadow);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panelMenu);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormMainMenu";
             this.Opacity = 0.97D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -343,12 +344,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnInicio)).EndInit();
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconNormal)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExpand)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SubLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconCurrentChildForm)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconNormal)).EndInit();
             this.ResumeLayout(false);
 
         }
