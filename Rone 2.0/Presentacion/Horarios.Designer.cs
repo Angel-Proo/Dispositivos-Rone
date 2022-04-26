@@ -84,23 +84,23 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 90);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(390, 454);
+            this.panel2.Size = new System.Drawing.Size(546, 454);
             this.panel2.TabIndex = 5;
             // 
             // textBoxDia
             // 
             this.textBoxDia.Font = new System.Drawing.Font("Helvetica Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxDia.Location = new System.Drawing.Point(52, 71);
+            this.textBoxDia.Location = new System.Drawing.Point(60, 72);
             this.textBoxDia.Name = "textBoxDia";
-            this.textBoxDia.Size = new System.Drawing.Size(300, 34);
+            this.textBoxDia.Size = new System.Drawing.Size(427, 34);
             this.textBoxDia.TabIndex = 17;
             // 
             // labelCierre
             // 
             this.labelCierre.Font = new System.Drawing.Font("Helvetica Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCierre.Location = new System.Drawing.Point(52, 233);
+            this.labelCierre.Location = new System.Drawing.Point(60, 237);
             this.labelCierre.Name = "labelCierre";
-            this.labelCierre.Size = new System.Drawing.Size(300, 23);
+            this.labelCierre.Size = new System.Drawing.Size(427, 23);
             this.labelCierre.TabIndex = 16;
             this.labelCierre.Text = "Día";
             this.labelCierre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -108,9 +108,9 @@
             // labelApertura
             // 
             this.labelApertura.Font = new System.Drawing.Font("Helvetica Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelApertura.Location = new System.Drawing.Point(52, 120);
+            this.labelApertura.Location = new System.Drawing.Point(60, 122);
             this.labelApertura.Name = "labelApertura";
-            this.labelApertura.Size = new System.Drawing.Size(300, 23);
+            this.labelApertura.Size = new System.Drawing.Size(427, 23);
             this.labelApertura.TabIndex = 15;
             this.labelApertura.Text = "Apertura";
             this.labelApertura.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -118,9 +118,9 @@
             // labelDia
             // 
             this.labelDia.Font = new System.Drawing.Font("Helvetica Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDia.Location = new System.Drawing.Point(52, 33);
+            this.labelDia.Location = new System.Drawing.Point(60, 33);
             this.labelDia.Name = "labelDia";
-            this.labelDia.Size = new System.Drawing.Size(300, 23);
+            this.labelDia.Size = new System.Drawing.Size(427, 23);
             this.labelDia.TabIndex = 14;
             this.labelDia.Text = "Día";
             this.labelDia.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -134,7 +134,7 @@
             this.buttonActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonActualizar.Font = new System.Drawing.Font("Helvetica", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonActualizar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonActualizar.Location = new System.Drawing.Point(139, 359);
+            this.buttonActualizar.Location = new System.Drawing.Point(205, 352);
             this.buttonActualizar.Name = "buttonActualizar";
             this.buttonActualizar.Size = new System.Drawing.Size(136, 40);
             this.buttonActualizar.TabIndex = 13;
@@ -144,11 +144,10 @@
             // 
             // dateTimePickerApertura
             // 
-            this.dateTimePickerApertura.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dateTimePickerApertura.CustomFormat = "tt hh:mm";
             this.dateTimePickerApertura.Font = new System.Drawing.Font("Helvetica Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePickerApertura.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePickerApertura.Location = new System.Drawing.Point(52, 158);
+            this.dateTimePickerApertura.Location = new System.Drawing.Point(123, 161);
             this.dateTimePickerApertura.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
             this.dateTimePickerApertura.MaximumSize = new System.Drawing.Size(300, 60);
             this.dateTimePickerApertura.MinimumSize = new System.Drawing.Size(300, 60);
@@ -159,11 +158,10 @@
             // 
             // dateTimePickerCierre
             // 
-            this.dateTimePickerCierre.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dateTimePickerCierre.CustomFormat = "tt hh:mm";
             this.dateTimePickerCierre.Font = new System.Drawing.Font("Helvetica Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePickerCierre.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePickerCierre.Location = new System.Drawing.Point(52, 271);
+            this.dateTimePickerCierre.Location = new System.Drawing.Point(123, 276);
             this.dateTimePickerCierre.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
             this.dateTimePickerCierre.MaximumSize = new System.Drawing.Size(300, 60);
             this.dateTimePickerCierre.MinimumSize = new System.Drawing.Size(300, 60);
@@ -176,9 +174,9 @@
             // 
             this.panel4.Controls.Add(this.dgvHorarios);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(390, 90);
+            this.panel4.Location = new System.Drawing.Point(0, 90);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(589, 454);
+            this.panel4.Size = new System.Drawing.Size(979, 454);
             this.panel4.TabIndex = 7;
             // 
             // dgvHorarios
@@ -192,6 +190,9 @@
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.WhiteSmoke;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.dgvHorarios.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvHorarios.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvHorarios.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvHorarios.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvHorarios.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
@@ -205,7 +206,7 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvHorarios.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvHorarios.Location = new System.Drawing.Point(23, 15);
+            this.dgvHorarios.Location = new System.Drawing.Point(580, 17);
             this.dgvHorarios.Name = "dgvHorarios";
             this.dgvHorarios.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
@@ -224,7 +225,7 @@
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.dgvHorarios.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvHorarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvHorarios.Size = new System.Drawing.Size(547, 425);
+            this.dgvHorarios.Size = new System.Drawing.Size(375, 425);
             this.dgvHorarios.TabIndex = 3;
             this.dgvHorarios.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHorarios_CellClick);
             // 
@@ -236,8 +237,8 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.IndianRed;
             this.ClientSize = new System.Drawing.Size(979, 544);
-            this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Horarios";

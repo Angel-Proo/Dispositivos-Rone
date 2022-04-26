@@ -82,6 +82,7 @@
   <ItemGroup>
     <Compile Include="Datos\Actualizar Usuarios.cs" />
     <Compile Include="Datos\Conexion.cs" />
+    <Compile Include="Datos\Tamaño.cs" />
     <Compile Include="FormMainMenu.cs">
       <SubType>Form</SubType>
     </Compile>

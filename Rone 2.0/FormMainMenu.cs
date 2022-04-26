@@ -9,11 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using FontAwesome.Sharp;
 using System.Runtime.InteropServices;
+using Rone_2._0.Datos;
 
 namespace Rone_2._0
 {//tamaño 1400 - 750
     public partial class FormMainMenu : Form
     {
+         
         //fields
         private IconButton currentBtn;
         private Panel leftBorderBtn;
@@ -31,6 +33,7 @@ namespace Rone_2._0
             this.DoubleBuffered = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             WindowState = FormWindowState.Normal;
+            Tamaño.sizes = "Normal";
         }
         //Estructuras
         private struct RGBColors
@@ -99,7 +102,6 @@ namespace Rone_2._0
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            
         }
         private void iconButton1_Click(object sender, EventArgs e)
         {
@@ -169,24 +171,31 @@ namespace Rone_2._0
             }  
         }
         private void iconPictureBox2_Click(object sender, EventArgs e)
-        {
+        {//Maximizar
+            
             if (WindowState == FormWindowState.Normal)
             {
-                WindowState = FormWindowState.Maximized;
+                Tamaño.sizes = "Maximized";
+                WindowState = FormWindowState.Maximized;   
             }
             else
+            {
+                Tamaño.sizes = "Normal";
                 WindowState = FormWindowState.Normal;
+            }    
         }
         private void iconPictureBox1_Click(object sender, EventArgs e)
-        {
+        {//minimizar
             WindowState = FormWindowState.Minimized;
+            //Tamaño.sizes = "Normal";
         }
         private void iconNormal_Click(object sender, EventArgs e)
-        { 
-           if(WindowState == FormWindowState.Maximized || Size.Width != 1400 || Size.Height != 750)
+        {//Normal 
+           if(WindowState == FormWindowState.Maximized || Size.Width != 1550 || Size.Height != 900)
             {
+                Tamaño.sizes = "Normal";
                 WindowState = FormWindowState.Normal;
-                Size = new Size(1400, 750);
+                Size = new Size(1550, 900);
             }
         }
     }

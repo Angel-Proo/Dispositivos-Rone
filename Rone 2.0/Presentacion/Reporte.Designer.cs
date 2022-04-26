@@ -28,25 +28,78 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
+            this.Alertas = new System.Windows.Forms.Timer(this.components);
+            this.Retorno = new System.Windows.Forms.Timer(this.components);
+            this.Pagina2 = new System.Windows.Forms.Timer(this.components);
+            this.Pagina1 = new System.Windows.Forms.Timer(this.components);
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
-            this.iconButton5 = new FontAwesome.Sharp.IconButton();
-            this.iconButton6 = new FontAwesome.Sharp.IconButton();
-            this.iconButton7 = new FontAwesome.Sharp.IconButton();
-            this.iconButton8 = new FontAwesome.Sharp.IconButton();
-            this.iconButton9 = new FontAwesome.Sharp.IconButton();
-            this.iconButton10 = new FontAwesome.Sharp.IconButton();
-            this.iconButton11 = new FontAwesome.Sharp.IconButton();
-            this.iconButton12 = new FontAwesome.Sharp.IconButton();
-            this.iconButton13 = new FontAwesome.Sharp.IconButton();
-            this.iconButton14 = new FontAwesome.Sharp.IconButton();
-            this.iconButton15 = new FontAwesome.Sharp.IconButton();
-            this.iconButton16 = new FontAwesome.Sharp.IconButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            this.tabPage2.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -57,403 +110,464 @@
             this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1127, 90);
+            this.label1.Size = new System.Drawing.Size(1171, 90);
             this.label1.TabIndex = 1;
             this.label1.Text = "Reporte de Dispositivos";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // Alertas
+            // 
+            this.Alertas.Interval = 501;
+            this.Alertas.Tick += new System.EventHandler(this.Alertas_Tick);
+            // 
+            // Retorno
+            // 
+            this.Retorno.Interval = 500;
+            this.Retorno.Tick += new System.EventHandler(this.Retorno_Tick);
+            // 
+            // Pagina2
+            // 
+            this.Pagina2.Interval = 5000;
+            this.Pagina2.Tick += new System.EventHandler(this.Pagina2_Tick);
+            // 
+            // Pagina1
+            // 
+            this.Pagina1.Interval = 5000;
+            this.Pagina1.Tick += new System.EventHandler(this.Pagina1_Tick);
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Alignment = System.Windows.Forms.TabAlignment.Left;
+            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Location = new System.Drawing.Point(5, 93);
+            this.tabControl1.Multiline = true;
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(1129, 895);
+            this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.tabControl1.TabIndex = 3;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.flowLayoutPanel1);
+            this.tabPage1.Location = new System.Drawing.Point(23, 4);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1102, 887);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Pagina 01";
+            // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.AllowDrop = true;
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(220)))), ((int)(((byte)(111)))));
-            this.flowLayoutPanel1.Controls.Add(this.iconButton1);
-            this.flowLayoutPanel1.Controls.Add(this.iconButton2);
-            this.flowLayoutPanel1.Controls.Add(this.iconButton3);
-            this.flowLayoutPanel1.Controls.Add(this.iconButton4);
-            this.flowLayoutPanel1.Controls.Add(this.iconButton5);
-            this.flowLayoutPanel1.Controls.Add(this.iconButton6);
-            this.flowLayoutPanel1.Controls.Add(this.iconButton7);
-            this.flowLayoutPanel1.Controls.Add(this.iconButton8);
-            this.flowLayoutPanel1.Controls.Add(this.iconButton9);
-            this.flowLayoutPanel1.Controls.Add(this.iconButton10);
-            this.flowLayoutPanel1.Controls.Add(this.iconButton11);
-            this.flowLayoutPanel1.Controls.Add(this.iconButton12);
-            this.flowLayoutPanel1.Controls.Add(this.iconButton13);
-            this.flowLayoutPanel1.Controls.Add(this.iconButton14);
-            this.flowLayoutPanel1.Controls.Add(this.iconButton15);
-            this.flowLayoutPanel1.Controls.Add(this.iconButton16);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox1);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox2);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox3);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox4);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox5);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox6);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox7);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox8);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox9);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox10);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox11);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox12);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox13);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox14);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox15);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox16);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox17);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox18);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox19);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox20);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox21);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox22);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox23);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox24);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox25);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 90);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1127, 609);
-            this.flowLayoutPanel1.TabIndex = 2;
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1096, 881);
+            this.flowLayoutPanel1.TabIndex = 0;
             // 
-            // iconButton1
+            // pictureBox1
             // 
-            this.iconButton1.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton1.BackgroundImage = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
-            this.iconButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.iconButton1.FlatAppearance.BorderSize = 0;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.Font = new System.Drawing.Font("Helvetica Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton1.IconColor = System.Drawing.Color.Black;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.IconSize = 200;
-            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.Location = new System.Drawing.Point(3, 3);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(124, 124);
-            this.iconButton1.TabIndex = 1;
-            this.iconButton1.Text = "Mesero 1";
-            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButton1.UseVisualStyleBackColor = false;
+            this.pictureBox1.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(15, 3);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
-            // iconButton2
+            // pictureBox2
             // 
-            this.iconButton2.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton2.BackgroundImage = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
-            this.iconButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.iconButton2.FlatAppearance.BorderSize = 0;
-            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton2.Font = new System.Drawing.Font("Helvetica Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton2.IconColor = System.Drawing.Color.Black;
-            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton2.IconSize = 200;
-            this.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton2.Location = new System.Drawing.Point(133, 3);
-            this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(124, 124);
-            this.iconButton2.TabIndex = 2;
-            this.iconButton2.Text = "Mesero 2";
-            this.iconButton2.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.iconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButton2.UseVisualStyleBackColor = false;
+            this.pictureBox2.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox2.Location = new System.Drawing.Point(195, 3);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
             // 
-            // iconButton3
+            // pictureBox3
             // 
-            this.iconButton3.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton3.BackgroundImage = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
-            this.iconButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.iconButton3.FlatAppearance.BorderSize = 0;
-            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton3.Font = new System.Drawing.Font("Helvetica Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton3.IconColor = System.Drawing.Color.Black;
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.IconSize = 200;
-            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.Location = new System.Drawing.Point(263, 3);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Size = new System.Drawing.Size(124, 124);
-            this.iconButton3.TabIndex = 3;
-            this.iconButton3.Text = "Mesero 3";
-            this.iconButton3.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButton3.UseVisualStyleBackColor = false;
+            this.pictureBox3.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox3.Location = new System.Drawing.Point(375, 3);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabStop = false;
             // 
-            // iconButton4
+            // pictureBox4
             // 
-            this.iconButton4.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton4.BackgroundImage = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
-            this.iconButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.iconButton4.FlatAppearance.BorderSize = 0;
-            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton4.Font = new System.Drawing.Font("Helvetica Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton4.IconColor = System.Drawing.Color.Black;
-            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton4.IconSize = 200;
-            this.iconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton4.Location = new System.Drawing.Point(393, 3);
-            this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Size = new System.Drawing.Size(124, 124);
-            this.iconButton4.TabIndex = 4;
-            this.iconButton4.Text = "Mesero 4";
-            this.iconButton4.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.iconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButton4.UseVisualStyleBackColor = false;
+            this.pictureBox4.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox4.Location = new System.Drawing.Point(555, 3);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 3;
+            this.pictureBox4.TabStop = false;
             // 
-            // iconButton5
+            // pictureBox5
             // 
-            this.iconButton5.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton5.BackgroundImage = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
-            this.iconButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.iconButton5.FlatAppearance.BorderSize = 0;
-            this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton5.Font = new System.Drawing.Font("Helvetica Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton5.IconColor = System.Drawing.Color.Black;
-            this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton5.IconSize = 200;
-            this.iconButton5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton5.Location = new System.Drawing.Point(523, 3);
-            this.iconButton5.Name = "iconButton5";
-            this.iconButton5.Size = new System.Drawing.Size(124, 124);
-            this.iconButton5.TabIndex = 5;
-            this.iconButton5.Text = "Mesero 5";
-            this.iconButton5.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.iconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButton5.UseVisualStyleBackColor = false;
+            this.pictureBox5.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox5.Location = new System.Drawing.Point(735, 3);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 4;
+            this.pictureBox5.TabStop = false;
             // 
-            // iconButton6
+            // pictureBox6
             // 
-            this.iconButton6.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton6.BackgroundImage = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
-            this.iconButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.iconButton6.FlatAppearance.BorderSize = 0;
-            this.iconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton6.Font = new System.Drawing.Font("Helvetica Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton6.IconColor = System.Drawing.Color.Black;
-            this.iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton6.IconSize = 200;
-            this.iconButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton6.Location = new System.Drawing.Point(653, 3);
-            this.iconButton6.Name = "iconButton6";
-            this.iconButton6.Size = new System.Drawing.Size(124, 124);
-            this.iconButton6.TabIndex = 6;
-            this.iconButton6.Text = "Mesero 6";
-            this.iconButton6.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButton6.UseVisualStyleBackColor = false;
+            this.pictureBox6.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox6.Location = new System.Drawing.Point(915, 3);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 5;
+            this.pictureBox6.TabStop = false;
             // 
-            // iconButton7
+            // pictureBox7
             // 
-            this.iconButton7.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton7.BackgroundImage = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
-            this.iconButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.iconButton7.FlatAppearance.BorderSize = 0;
-            this.iconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton7.Font = new System.Drawing.Font("Helvetica Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton7.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton7.IconColor = System.Drawing.Color.Black;
-            this.iconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton7.IconSize = 200;
-            this.iconButton7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton7.Location = new System.Drawing.Point(783, 3);
-            this.iconButton7.Name = "iconButton7";
-            this.iconButton7.Size = new System.Drawing.Size(124, 124);
-            this.iconButton7.TabIndex = 7;
-            this.iconButton7.Text = "Mesero 1";
-            this.iconButton7.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.iconButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButton7.UseVisualStyleBackColor = false;
+            this.pictureBox7.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox7.Location = new System.Drawing.Point(15, 159);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 6;
+            this.pictureBox7.TabStop = false;
             // 
-            // iconButton8
+            // pictureBox8
             // 
-            this.iconButton8.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton8.BackgroundImage = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
-            this.iconButton8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.iconButton8.FlatAppearance.BorderSize = 0;
-            this.iconButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton8.Font = new System.Drawing.Font("Helvetica Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton8.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton8.IconColor = System.Drawing.Color.Black;
-            this.iconButton8.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton8.IconSize = 200;
-            this.iconButton8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton8.Location = new System.Drawing.Point(913, 3);
-            this.iconButton8.Name = "iconButton8";
-            this.iconButton8.Size = new System.Drawing.Size(124, 124);
-            this.iconButton8.TabIndex = 8;
-            this.iconButton8.Text = "Mesero 1";
-            this.iconButton8.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.iconButton8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButton8.UseVisualStyleBackColor = false;
+            this.pictureBox8.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox8.Location = new System.Drawing.Point(195, 159);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 7;
+            this.pictureBox8.TabStop = false;
             // 
-            // iconButton9
+            // pictureBox9
             // 
-            this.iconButton9.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton9.BackgroundImage = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
-            this.iconButton9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.iconButton9.FlatAppearance.BorderSize = 0;
-            this.iconButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton9.Font = new System.Drawing.Font("Helvetica Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton9.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton9.IconColor = System.Drawing.Color.Black;
-            this.iconButton9.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton9.IconSize = 200;
-            this.iconButton9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton9.Location = new System.Drawing.Point(3, 133);
-            this.iconButton9.Name = "iconButton9";
-            this.iconButton9.Size = new System.Drawing.Size(124, 124);
-            this.iconButton9.TabIndex = 9;
-            this.iconButton9.Text = "Mesero 1";
-            this.iconButton9.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.iconButton9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButton9.UseVisualStyleBackColor = false;
+            this.pictureBox9.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox9.Location = new System.Drawing.Point(375, 159);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 8;
+            this.pictureBox9.TabStop = false;
             // 
-            // iconButton10
+            // pictureBox10
             // 
-            this.iconButton10.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton10.BackgroundImage = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
-            this.iconButton10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.iconButton10.FlatAppearance.BorderSize = 0;
-            this.iconButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton10.Font = new System.Drawing.Font("Helvetica Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton10.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton10.IconColor = System.Drawing.Color.Black;
-            this.iconButton10.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton10.IconSize = 200;
-            this.iconButton10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton10.Location = new System.Drawing.Point(133, 133);
-            this.iconButton10.Name = "iconButton10";
-            this.iconButton10.Size = new System.Drawing.Size(124, 124);
-            this.iconButton10.TabIndex = 10;
-            this.iconButton10.Text = "Mesero 1";
-            this.iconButton10.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.iconButton10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButton10.UseVisualStyleBackColor = false;
+            this.pictureBox10.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox10.Location = new System.Drawing.Point(555, 159);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 9;
+            this.pictureBox10.TabStop = false;
             // 
-            // iconButton11
+            // pictureBox11
             // 
-            this.iconButton11.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton11.BackgroundImage = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
-            this.iconButton11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.iconButton11.FlatAppearance.BorderSize = 0;
-            this.iconButton11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton11.Font = new System.Drawing.Font("Helvetica Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton11.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton11.IconColor = System.Drawing.Color.Black;
-            this.iconButton11.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton11.IconSize = 200;
-            this.iconButton11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton11.Location = new System.Drawing.Point(263, 133);
-            this.iconButton11.Name = "iconButton11";
-            this.iconButton11.Size = new System.Drawing.Size(124, 124);
-            this.iconButton11.TabIndex = 11;
-            this.iconButton11.Text = "Mesero 1";
-            this.iconButton11.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.iconButton11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButton11.UseVisualStyleBackColor = false;
+            this.pictureBox11.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox11.Location = new System.Drawing.Point(735, 159);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 10;
+            this.pictureBox11.TabStop = false;
             // 
-            // iconButton12
+            // pictureBox12
             // 
-            this.iconButton12.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton12.BackgroundImage = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
-            this.iconButton12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.iconButton12.FlatAppearance.BorderSize = 0;
-            this.iconButton12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton12.Font = new System.Drawing.Font("Helvetica Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton12.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton12.IconColor = System.Drawing.Color.Black;
-            this.iconButton12.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton12.IconSize = 200;
-            this.iconButton12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton12.Location = new System.Drawing.Point(393, 133);
-            this.iconButton12.Name = "iconButton12";
-            this.iconButton12.Size = new System.Drawing.Size(124, 124);
-            this.iconButton12.TabIndex = 12;
-            this.iconButton12.Text = "Mesero 1";
-            this.iconButton12.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.iconButton12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButton12.UseVisualStyleBackColor = false;
+            this.pictureBox12.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox12.Location = new System.Drawing.Point(915, 159);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 11;
+            this.pictureBox12.TabStop = false;
             // 
-            // iconButton13
+            // pictureBox13
             // 
-            this.iconButton13.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton13.BackgroundImage = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
-            this.iconButton13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.iconButton13.FlatAppearance.BorderSize = 0;
-            this.iconButton13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton13.Font = new System.Drawing.Font("Helvetica Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton13.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton13.IconColor = System.Drawing.Color.Black;
-            this.iconButton13.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton13.IconSize = 200;
-            this.iconButton13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton13.Location = new System.Drawing.Point(523, 133);
-            this.iconButton13.Name = "iconButton13";
-            this.iconButton13.Size = new System.Drawing.Size(124, 124);
-            this.iconButton13.TabIndex = 13;
-            this.iconButton13.Text = "Mesero 1";
-            this.iconButton13.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.iconButton13.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButton13.UseVisualStyleBackColor = false;
+            this.pictureBox13.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox13.Location = new System.Drawing.Point(15, 315);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 12;
+            this.pictureBox13.TabStop = false;
             // 
-            // iconButton14
+            // pictureBox14
             // 
-            this.iconButton14.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton14.BackgroundImage = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
-            this.iconButton14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.iconButton14.FlatAppearance.BorderSize = 0;
-            this.iconButton14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton14.Font = new System.Drawing.Font("Helvetica Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton14.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton14.IconColor = System.Drawing.Color.Black;
-            this.iconButton14.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton14.IconSize = 200;
-            this.iconButton14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton14.Location = new System.Drawing.Point(653, 133);
-            this.iconButton14.Name = "iconButton14";
-            this.iconButton14.Size = new System.Drawing.Size(124, 124);
-            this.iconButton14.TabIndex = 14;
-            this.iconButton14.Text = "Mesero 1";
-            this.iconButton14.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.iconButton14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButton14.UseVisualStyleBackColor = false;
+            this.pictureBox14.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox14.Location = new System.Drawing.Point(195, 315);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox14.TabIndex = 13;
+            this.pictureBox14.TabStop = false;
             // 
-            // iconButton15
+            // pictureBox15
             // 
-            this.iconButton15.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton15.BackgroundImage = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
-            this.iconButton15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.iconButton15.FlatAppearance.BorderSize = 0;
-            this.iconButton15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton15.Font = new System.Drawing.Font("Helvetica Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton15.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton15.IconColor = System.Drawing.Color.Black;
-            this.iconButton15.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton15.IconSize = 200;
-            this.iconButton15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton15.Location = new System.Drawing.Point(783, 133);
-            this.iconButton15.Name = "iconButton15";
-            this.iconButton15.Size = new System.Drawing.Size(124, 124);
-            this.iconButton15.TabIndex = 15;
-            this.iconButton15.Text = "Mesero 1";
-            this.iconButton15.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.iconButton15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButton15.UseVisualStyleBackColor = false;
+            this.pictureBox15.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox15.Location = new System.Drawing.Point(375, 315);
+            this.pictureBox15.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox15.TabIndex = 14;
+            this.pictureBox15.TabStop = false;
             // 
-            // iconButton16
+            // pictureBox16
             // 
-            this.iconButton16.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton16.BackgroundImage = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
-            this.iconButton16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.iconButton16.FlatAppearance.BorderSize = 0;
-            this.iconButton16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton16.Font = new System.Drawing.Font("Helvetica Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton16.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton16.IconColor = System.Drawing.Color.Black;
-            this.iconButton16.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton16.IconSize = 200;
-            this.iconButton16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton16.Location = new System.Drawing.Point(913, 133);
-            this.iconButton16.Name = "iconButton16";
-            this.iconButton16.Size = new System.Drawing.Size(124, 124);
-            this.iconButton16.TabIndex = 16;
-            this.iconButton16.Text = "Mesero 1";
-            this.iconButton16.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.iconButton16.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButton16.UseVisualStyleBackColor = false;
+            this.pictureBox16.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox16.Location = new System.Drawing.Point(555, 315);
+            this.pictureBox16.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox16.TabIndex = 15;
+            this.pictureBox16.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox17.Location = new System.Drawing.Point(735, 315);
+            this.pictureBox17.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox17.TabIndex = 16;
+            this.pictureBox17.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox18.Location = new System.Drawing.Point(915, 315);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox18.TabIndex = 17;
+            this.pictureBox18.TabStop = false;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox19.Location = new System.Drawing.Point(15, 471);
+            this.pictureBox19.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox19.TabIndex = 18;
+            this.pictureBox19.TabStop = false;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox20.Location = new System.Drawing.Point(195, 471);
+            this.pictureBox20.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox20.TabIndex = 19;
+            this.pictureBox20.TabStop = false;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox21.Location = new System.Drawing.Point(375, 471);
+            this.pictureBox21.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox21.TabIndex = 20;
+            this.pictureBox21.TabStop = false;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox22.Location = new System.Drawing.Point(555, 471);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox22.TabIndex = 21;
+            this.pictureBox22.TabStop = false;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox23.Location = new System.Drawing.Point(735, 471);
+            this.pictureBox23.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox23.TabIndex = 22;
+            this.pictureBox23.TabStop = false;
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox24.Location = new System.Drawing.Point(915, 471);
+            this.pictureBox24.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox24.TabIndex = 23;
+            this.pictureBox24.TabStop = false;
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox25.Location = new System.Drawing.Point(15, 627);
+            this.pictureBox25.Margin = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox25.TabIndex = 24;
+            this.pictureBox25.TabStop = false;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.flowLayoutPanel2);
+            this.tabPage2.Location = new System.Drawing.Point(23, 4);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1102, 887);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Pagina 02";
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Controls.Add(this.pictureBox26);
+            this.flowLayoutPanel2.Controls.Add(this.pictureBox27);
+            this.flowLayoutPanel2.Controls.Add(this.pictureBox28);
+            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 3);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(1096, 881);
+            this.flowLayoutPanel2.TabIndex = 0;
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox26.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox26.MaximumSize = new System.Drawing.Size(200, 200);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox26.TabIndex = 1;
+            this.pictureBox26.TabStop = false;
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox27.Location = new System.Drawing.Point(159, 3);
+            this.pictureBox27.MaximumSize = new System.Drawing.Size(200, 200);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox27.TabIndex = 2;
+            this.pictureBox27.TabStop = false;
+            // 
+            // pictureBox28
+            // 
+            this.pictureBox28.Image = global::Rone_2._0.Properties.Resources.waiter_serving_a_drink_on_a_tray__1_;
+            this.pictureBox28.Location = new System.Drawing.Point(315, 3);
+            this.pictureBox28.MaximumSize = new System.Drawing.Size(200, 200);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox28.TabIndex = 3;
+            this.pictureBox28.TabStop = false;
             // 
             // Reporte
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1127, 699);
-            this.Controls.Add(this.flowLayoutPanel1);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(220)))), ((int)(((byte)(111)))));
+            this.ClientSize = new System.Drawing.Size(1171, 1000);
+            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Reporte";
             this.Text = "Reporte";
             this.Load += new System.EventHandler(this.Reporte_Load);
+            this.SizeChanged += new System.EventHandler(this.Reporte_SizeChanged);
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            this.tabPage2.ResumeLayout(false);
+            this.flowLayoutPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -461,22 +575,42 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Timer Alertas;
+        private System.Windows.Forms.Timer Retorno;
+        private System.Windows.Forms.Timer Pagina2;
+        private System.Windows.Forms.Timer Pagina1;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private FontAwesome.Sharp.IconButton iconButton1;
-        private FontAwesome.Sharp.IconButton iconButton2;
-        private FontAwesome.Sharp.IconButton iconButton3;
-        private FontAwesome.Sharp.IconButton iconButton4;
-        private FontAwesome.Sharp.IconButton iconButton5;
-        private FontAwesome.Sharp.IconButton iconButton6;
-        private FontAwesome.Sharp.IconButton iconButton7;
-        private FontAwesome.Sharp.IconButton iconButton8;
-        private FontAwesome.Sharp.IconButton iconButton9;
-        private FontAwesome.Sharp.IconButton iconButton10;
-        private FontAwesome.Sharp.IconButton iconButton11;
-        private FontAwesome.Sharp.IconButton iconButton12;
-        private FontAwesome.Sharp.IconButton iconButton13;
-        private FontAwesome.Sharp.IconButton iconButton14;
-        private FontAwesome.Sharp.IconButton iconButton15;
-        private FontAwesome.Sharp.IconButton iconButton16;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.PictureBox pictureBox21;
+        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.PictureBox pictureBox23;
+        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.PictureBox pictureBox25;
+        private System.Windows.Forms.PictureBox pictureBox26;
+        private System.Windows.Forms.PictureBox pictureBox27;
+        private System.Windows.Forms.PictureBox pictureBox28;
     }
 }
