@@ -59,3 +59,4 @@ C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone 2.0.exe
 C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone 2.0.pdb
 C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone_2._0.Presentacion.Reporte.resources
 C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone_2._0.Presentacion.Event_Log.resources
+C:\Users\RONE\Documents\GitHub\Dispositivos-Rone\Rone 2.0\obj\Debug\Rone_2._0.Presentacion.Red.resources

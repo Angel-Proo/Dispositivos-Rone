@@ -35,6 +35,7 @@
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.panelInfo = new System.Windows.Forms.Panel();
+            this.iconButton3 = new FontAwesome.Sharp.IconButton();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconCurrentChildForm)).BeginInit();
             this.panelMenu.SuspendLayout();
@@ -81,6 +82,7 @@
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.panelMenu.Controls.Add(this.iconButton2);
             this.panelMenu.Controls.Add(this.iconButton1);
+            this.panelMenu.Controls.Add(this.iconButton3);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 70);
             this.panelMenu.Name = "panelMenu";
@@ -98,7 +100,7 @@
             this.iconButton2.IconColor = System.Drawing.Color.WhiteSmoke;
             this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton2.Location = new System.Drawing.Point(0, 90);
+            this.iconButton2.Location = new System.Drawing.Point(0, 180);
             this.iconButton2.Name = "iconButton2";
             this.iconButton2.Size = new System.Drawing.Size(150, 90);
             this.iconButton2.TabIndex = 1;
@@ -118,7 +120,7 @@
             this.iconButton1.IconColor = System.Drawing.Color.WhiteSmoke;
             this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.Location = new System.Drawing.Point(0, 0);
+            this.iconButton1.Location = new System.Drawing.Point(0, 90);
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Padding = new System.Windows.Forms.Padding(0, 10, 0, 20);
             this.iconButton1.Size = new System.Drawing.Size(150, 90);
@@ -135,6 +137,27 @@
             this.panelInfo.Name = "panelInfo";
             this.panelInfo.Size = new System.Drawing.Size(650, 380);
             this.panelInfo.TabIndex = 3;
+            // 
+            // iconButton3
+            // 
+            this.iconButton3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton3.FlatAppearance.BorderSize = 0;
+            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton3.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Wifi;
+            this.iconButton3.IconColor = System.Drawing.Color.WhiteSmoke;
+            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton3.Location = new System.Drawing.Point(0, 0);
+            this.iconButton3.Name = "iconButton3";
+            this.iconButton3.Padding = new System.Windows.Forms.Padding(0, 10, 0, 20);
+            this.iconButton3.Size = new System.Drawing.Size(150, 90);
+            this.iconButton3.TabIndex = 1;
+            this.iconButton3.Text = "Red";
+            this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton3.UseVisualStyleBackColor = true;
+            this.iconButton3.Click += new System.EventHandler(this.iconButton3_Click);
             // 
             // Sistema
             // 
@@ -166,5 +189,6 @@
         private System.Windows.Forms.Label labelTitulo;
         private FontAwesome.Sharp.IconPictureBox iconCurrentChildForm;
         private System.Windows.Forms.Panel panelInfo;
+        private FontAwesome.Sharp.IconButton iconButton3;
     }
 }

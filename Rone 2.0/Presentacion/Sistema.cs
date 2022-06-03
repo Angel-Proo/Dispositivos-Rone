@@ -113,5 +113,11 @@ namespace Rone_2._0.Presentacion
             ActivateButton(sender, RGBColors.color1);
             OpenChildForm(new Presentacion.Horarios());
         }
+
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color1);
+            OpenChildForm(new Presentacion.Red());
+        }
     }
 }
